@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="May & Jasmine & Alanis">
+<title>Yggdrasil - contact us</title>
+<link rel="stylesheet" href="./css/style.css">
+<script type="text/javascript" src="js/yggdrasil.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+</head>
+
+<body>
+    <header>
+        <section class="sub-header">
+            <nav>
+                <div class="logo-big">
+                    <a href="index.html"><img src="./img/logo1.png" alt="our logo"></a>
+                </div> 
+                <div class="nav-links" id="navLinks">  
+                    <i class="fa fa-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="tree.html">Program</a></li> 
+                        <li><a href="commonquestion.html">Question</a></li>
+                      
+                        <li><a class="current" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+        </section>
+    </header>
+    
+    
+<!------- Contact Us ------->
+
+    
+    <section class="location">
+            <iframe class="locationmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.368144678623!2d77.55384341419037!3d13.012212417508028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d7f3535d71b%3A0x660d25b66e9fb25c!2sWorld+Trade+Centre!5e0!3m2!1sen!2sin!4v1565255080367!5m2!1sen!2sin" width="720" height="445"  allowfullscreen></iframe>
+    </section>
+    
+    <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <div>
+                            <h5>123 Tuu Road, Abc Building, Sanya, China</h5>
+                            <p> </p>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <div>
+                            <h5>+1 0123456789</h5>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <div>
+                            <h5>info@turtlee.com</h5>
+                           
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+
+
+                <div class="contact-col">
+                <form action="https://formsubmit.co/yiting.yao@mail.utoronto.ca" method="POST">
+                    <form method="post" action="contact-form-handler.php">
+                    <p>Name:<span class="required">*</span></p>
+                    <span class="pattern">Must fill out Name filed</span>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <p>Email:<span class="required">*</span></p>
+                    <span class="pattern">xxx@xxx.xx Email should match this pattern</span>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]" />
+                    <p>Subject:</p>
+                    <input type="text" id="subject" name="subject" placeholder="Enter your subject" required>
+                    <p>Message:</p>
+                    <textarea rows="8" id="message" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form> 
+                </form>    
+                </div>
+            </div>
+    </section>
+    
+
+
+
+
+
+
+
+<!------ footer ------>
+
+
+<footer>
+    <div class="footer-col">
+        <h3>Top Products</h3>
+        <ul>
+            <li>Manage Reputation</li>
+             <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Yggdrasil Values</h3>
+        <ul>
+            <li>Accessbilty</li>
+            <li>Environment</li>
+            <li>Privacy</li>
+            <li>Supplier Responsibility</li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Features</h3>
+        <ul>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <ul>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p>You can trust us. we only send promo offers,</p>
+        <div class="subscribe">
+            <input type="text" name="footer-email-address" placeholder="Your Email Address" id="footer-email">
+            <a class="yellow" href="#">SUBSCRIBE</a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2021 Yggdrasil Inc. | Privacy Policy Use of Cookies </p>
+        <div class="pro-link">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            
+        </div>
+    </div>
+    <script src="./js/yggdrasil.js"></script>
+</footer>
+
+</body>
+</html>    
