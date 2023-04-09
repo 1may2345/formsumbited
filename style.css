@@ -337,7 +337,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.164),rgba(0,0,0,0.7)),url(../img/img/sea.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.164),rgba(0,0,0,0.7)),url(img/img/sea.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -364,7 +364,7 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: url(../img/img/try\ 5.jpg);
+    background-image: url(img/img/try5.jpg);
     background-position:top; 
     background-size: cover;
     text-align: center;
@@ -743,7 +743,7 @@ h3{
 }
 
 .fivestars,.fivestars div{
-    background:transparent url(../img/img/star.gif) repeat-x scroll left bottom;
+    background:transparent url(img/img/star.gif) repeat-x scroll left bottom;
     width:130px;
 }
 
