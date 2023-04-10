@@ -104,6 +104,7 @@ nav .fa{
    .nav-links ul li
     {
         display: block;
+        height:40px;
     }
     .nav-links
     {
