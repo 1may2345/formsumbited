@@ -65,10 +65,13 @@
         </div>
         <div class="question2">
             <h3>Ask Questions!</h3>
-            <div class="ask-questions">
-                <form action="form_action.asp" method="get">
-                    <textarea rows=5 name="ask" placeholder="Enter your questions" required></textarea>
-                    <button type="submit" class="hero-btn red-btn">Submit</button>           
+            <div class="ask-questions">    
+                    <form action="https://formsubmit.co/e612a6d8099ac22eac7d2fd4e1246f06" method="POST">
+                    <input type="hidden" name="_next" value="https://1may2345.github.io/formsumbited/success.html">
+                    <form method="post" action="contact-form-handler.php">
+                    <textarea rows="8" id="askmessage" name="askmessage" placeholder="Enter your question" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Submit</button>
+                    </form> 
                 </form>
             </div>
         </div>
